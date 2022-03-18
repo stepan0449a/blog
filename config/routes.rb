@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :nicknames
   resources :works
   resources :dogs
   resources :posts

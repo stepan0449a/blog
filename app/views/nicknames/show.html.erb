@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @nickname %>
+
+<div>
+  <%= link_to "Edit this nickname", edit_nickname_path(@nickname) %> |
+  <%= link_to "Back to nicknames", nicknames_path %>
+
+  <%= button_to "Destroy this nickname", @nickname, method: :delete %>
+</div>
